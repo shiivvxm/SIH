@@ -1,0 +1,238 @@
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={theme:{extend:{"colors":{"surface-tint":"#575e70","secondary-fixed":"#d5e3fc","secondary-container":"#d5e3fc","on-surface":"#1b1b1d","on-error":"#ffffff","error":"#ba1a1a","on-tertiary-fixed":"#281807","background":"#fcf8fa","tertiary-fixed-dim":"#e0c1a6","surface-bright":"#fcf8fa","on-primary-fixed-variant":"#404758","on-surface-variant":"#45464c","primary-container":"#151b2b","error-container":"#ffdad6","tertiary":"#000000","outline":"#76777d","inverse-on-surface":"#f3f0f1","on-secondary-fixed-variant":"#3a485b","primary-fixed-dim":"#c0c6db","inverse-primary":"#c0c6db","on-secondary-fixed":"#0d1c2e","on-primary":"#ffffff","on-tertiary-container":"#9a7f67","primary-fixed":"#dce2f8","inverse-surface":"#303031","surface-container-low":"#f6f3f4","tertiary-fixed":"#fdddc1","on-tertiary":"#ffffff","surface-dim":"#dcd9db","surface-variant":"#e5e2e3","on-background":"#1b1b1d","secondary":"#515f74","surface-container-highest":"#e5e2e3","on-error-container":"#93000a","primary":"#000000","secondary-fixed-dim":"#b9c7df","surface-container-high":"#eae7e9","on-primary-container":"#7d8497","outline-variant":"#c6c6cd","on-secondary":"#ffffff","surface":"#fcf8fa","surface-container":"#f0edee","on-secondary-container":"#57657a","tertiary-container":"#281807","on-primary-fixed":"#151b2b","on-tertiary-fixed-variant":"#58432e","surface-container-lowest":"#ffffff"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"margin-mobile":"16px","stack-lg":"24px","stack-md":"16px","stack-xl":"48px","container-max":"1440px","margin-desktop":"32px","stack-sm":"8px","unit":"4px","gutter":"24px","stack-xs":"4px"},"fontFamily":{"body-md":["Inter"],"data-table":["Inter"],"body-sm":["Inter"],"body-lg":["Inter"],"headline-lg":["Hanken Grotesk"],"headline-md":["Hanken Grotesk"],"headline-lg-mobile":["Hanken Grotesk"],"display-lg":["Hanken Grotesk"],"label-caps":["JetBrains Mono"]},"fontSize":{"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}],"data-table":["14px",{"lineHeight":"20px","fontWeight":"500"}],"body-sm":["14px",{"lineHeight":"20px","fontWeight":"400"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.01em","fontWeight":"700"}],"headline-md":["24px",{"lineHeight":"32px","fontWeight":"600"}],"headline-lg-mobile":["24px",{"lineHeight":"32px","fontWeight":"700"}],"display-lg":["48px",{"lineHeight":"56px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-caps":["12px",{"lineHeight":"16px","letterSpacing":"0.05em","fontWeight":"600"}]}}}}</script><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&family=Inter:wght@100..900&family=JetBrains+Mono:wght@100..900&display=swap" rel="stylesheet"/></head><body class="bg-background font-body-md text-on-surface"><aside class="fixed left-0 top-0 h-full w-72 bg-primary-container z-50 flex flex-col border-r border-outline/10"><div class="p-6 flex items-center gap-3 mb-4"><img alt="Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC833ZzP6NVvxiZHEE-GIs4hSGcqJlTFBiFbSkuXBfXL_aXGIHh9SbYvpGyMnev_Nbv8aHETOWXXUq9Tx8pgTBwCUN55XpgZMOXKZEdnHeRiKj0oILIgquINv9lpyI_RVLli6NoJ8HA6vod2N8ey0X16OYInybfiVmctNknw5Jbua_Ubeg79RHzvHcNpslhHuiQRoso9HeOFiEnE5izJ0G4EGBLUP1-18vAjBG6DFz4CvAM0JBDzA"/><span class="text-on-primary font-headline-md tracking-tight">FreightIQ</span></div><nav class="flex-1 px-3 space-y-1" data-active-classes="bg-on-primary/10 text-on-primary border-l-4 border-primary-fixed"><a class="flex items-center px-4 py-3 rounded-lg text-secondary-fixed-dim hover:bg-on-primary/5 hover:text-on-primary transition-all" data-path="dashboard" href="#"><span class="material-symbols-outlined mr-3 text-[20px]">dashboard</span>Dashboard</a><a aria-current="page" class="flex items-center px-4 py-3 rounded-lg transition-all bg-on-primary/10 text-on-primary border-l-4 border-primary-fixed" data-path="voyage-planner" href="#"><span class="material-symbols-outlined mr-3 text-[20px]">sailing</span>Voyage Planner</a><a class="flex items-center px-4 py-3 rounded-lg text-secondary-fixed-dim hover:bg-on-primary/5 hover:text-on-primary transition-all" data-path="freight-forecast" href="#"><span class="material-symbols-outlined mr-3 text-[20px]">query_stats</span>Freight Forecast</a><a class="flex items-center px-4 py-3 rounded-lg text-secondary-fixed-dim hover:bg-on-primary/5 hover:text-on-primary transition-all" data-path="vessel-port" href="#"><span class="material-symbols-outlined mr-3 text-[20px]">anchor</span>Vessel & Port</a><a class="flex items-center px-4 py-3 rounded-lg text-secondary-fixed-dim hover:bg-on-primary/5 hover:text-on-primary transition-all" data-path="contract-strategy" href="#"><span class="material-symbols-outlined mr-3 text-[20px]">contract</span>Contract Strategy</a><a class="flex items-center px-4 py-3 rounded-lg text-secondary-fixed-dim hover:bg-on-primary/5 hover:text-on-primary transition-all" data-path="risk-center" href="#"><span class="material-symbols-outlined mr-3 text-[20px]">security</span>Risk Center</a><a class="flex items-center px-4 py-3 rounded-lg text-secondary-fixed-dim hover:bg-on-primary/5 hover:text-on-primary transition-all" data-path="scenario-simulator" href="#"><span class="material-symbols-outlined mr-3 text-[20px]">model_training</span>Scenario Simulator</a><a class="flex items-center px-4 py-3 rounded-lg text-secondary-fixed-dim hover:bg-on-primary/5 hover:text-on-primary transition-all" data-path="reports" href="#"><span class="material-symbols-outlined mr-3 text-[20px]">description</span>Reports</a></nav><div class="mt-auto border-t border-outline/10 p-6 space-y-4"><div class="flex items-center gap-2 text-label-caps text-secondary-fixed-dim"><span class="w-2 h-2 rounded-full bg-emerald-500"></span>Systems Operational</div><div class="flex items-center gap-3"><img alt="Profile" class="w-10 h-10 rounded-full border border-outline/20 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzMdEcKXyjKDODNo6SmPia18kQfotzYQHK48oX4nAKkMFddJD5ZwsIavRtwUIxo_ME-bAYqEy-3vbn1C1A0Acn8u15yHUOzWsJD6PYnmuxU6pWIivInZO3GTrfvMwmxDJ5m-xx5qWQQY-BIu_Hh24mZmSVzNm09t8jBr-0YyzXNXe3NKd1-EBG2OC8qUJl4A3BGFQZ8lF-_C1Vt48bgV0UZmB6-URMGgI95LAEZm-ufqvBbVMSnQ"/><div class="overflow-hidden"><p class="text-on-primary text-body-sm font-semibold truncate">Manager</p><p class="text-secondary-fixed-dim text-[11px] uppercase tracking-wider">Enterprise Access</p></div></div></div></aside><div class="pl-72"><header class="fixed top-0 left-72 right-0 h-16 bg-surface/80 backdrop-blur-xl border-b border-outline-variant z-40 flex items-center justify-between px-8"><div class="flex items-center gap-6"><div class="flex flex-col"><span class="text-label-caps text-on-surface-variant">Project ID</span><span class="text-body-sm font-semibold text-on-surface">SIH26006</span></div><div class="h-8 w-[1px] bg-outline-variant"></div><div class="flex flex-col"><span class="text-label-caps text-on-surface-variant">Organization</span><span class="text-body-sm font-semibold text-on-surface">Ministry of Steel</span></div></div><div class="flex items-center gap-5 text-on-surface-variant"><button class="hover:text-primary transition-colors"><span class="material-symbols-outlined">search</span></button><button class="hover:text-primary transition-colors relative"><span class="material-symbols-outlined">notifications</span><span class="absolute top-0 right-0 w-2 h-2 bg-error rounded-full"></span></button><button class="hover:text-primary transition-colors"><span class="material-symbols-outlined">settings</span></button></div></header><main class="relative pt-16 bg-background min-h-screen"><div class="flex flex-col w-full h-full relative overflow-hidden bg-background">
+<div class="max-w-container-max mx-auto w-full p-margin-desktop grid grid-cols-12 gap-gutter relative z-10">
+<!-- Title & Description -->
+<div class="col-span-12 mb-stack-xl relative">
+<div class="absolute -top-12 -left-8 w-48 h-48 bg-primary-fixed/20 blur-3xl rounded-full pointer-events-none"></div>
+<h1 class="font-display-lg text-on-surface mb-stack-sm relative z-10">Create Voyage Scenario</h1>
+<p class="font-body-lg text-on-surface-variant max-w-2xl">Configure your shipping parameters to generate AI-optimized route, vessel, and contract recommendations.</p>
+</div>
+<!-- Main Form Panel -->
+<div class="col-span-12 lg:col-span-8 relative z-10">
+<div class="bg-surface-container-lowest rounded-xl shadow-lg p-stack-xl relative overflow-hidden group transition-all duration-300 hover:shadow-xl">
+<div class="absolute top-0 right-0 w-32 h-32 bg-secondary-fixed/10 blur-2xl rounded-full transform translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
+<form class="space-y-stack-xl relative z-10" id="voyageForm">
+<!-- Route Section -->
+<div class="space-y-stack-md">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[24px]">route</span>
+<h2 class="font-headline-md text-on-surface">Route Configuration</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-stack-md relative">
+<div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 hidden md:flex items-center justify-center w-8 h-8 rounded-full bg-surface shadow-sm z-10">
+<span class="material-symbols-outlined text-on-surface-variant text-[16px]">swap_horiz</span>
+</div>
+<div class="space-y-stack-xs relative group/input">
+<label class="font-label-caps text-on-surface-variant uppercase tracking-wider block">Origin</label>
+<div class="relative">
+<select class="w-full bg-surface border border-outline-variant rounded-lg p-4 font-body-md text-on-surface appearance-none focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors cursor-pointer">
+<option selected="" value="australia">Australia (Newcastle)</option>
+<option value="indonesia">Indonesia (Samarinda)</option>
+<option value="south-africa">South Africa (Richards Bay)</option>
+</select>
+<span class="material-symbols-outlined absolute right-4 top-1/2 -translate-y-1/2 text-on-surface-variant pointer-events-none">expand_more</span>
+</div>
+</div>
+<div class="space-y-stack-xs relative group/input">
+<label class="font-label-caps text-on-surface-variant uppercase tracking-wider block">Destination</label>
+<div class="relative">
+<select class="w-full bg-surface border border-outline-variant rounded-lg p-4 font-body-md text-on-surface appearance-none focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors cursor-pointer">
+<option selected="" value="paradip">India (Paradip)</option>
+<option value="haldia">India (Haldia)</option>
+<option value="dhamra">India (Dhamra)</option>
+</select>
+<span class="material-symbols-outlined absolute right-4 top-1/2 -translate-y-1/2 text-on-surface-variant pointer-events-none">expand_more</span>
+</div>
+</div>
+</div>
+</div>
+<div class="h-px w-full bg-outline-variant/30"></div>
+<!-- Cargo & Schedule Section -->
+<div class="space-y-stack-md">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[24px]">inventory_2</span>
+<h2 class="font-headline-md text-on-surface">Cargo & Schedule</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-stack-md">
+<div class="space-y-stack-xs relative group/input">
+<label class="font-label-caps text-on-surface-variant uppercase tracking-wider block">Cargo Type</label>
+<div class="relative">
+<select class="w-full bg-surface border border-outline-variant rounded-lg p-4 font-body-md text-on-surface appearance-none focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors cursor-pointer">
+<option selected="" value="coal">Coal</option>
+<option value="iron-ore">Iron Ore</option>
+<option value="grain">Grain</option>
+</select>
+<span class="material-symbols-outlined absolute right-4 top-1/2 -translate-y-1/2 text-on-surface-variant pointer-events-none">expand_more</span>
+</div>
+</div>
+<div class="space-y-stack-xs relative group/input">
+<label class="font-label-caps text-on-surface-variant uppercase tracking-wider block">Quantity (MT)</label>
+<div class="relative">
+<input class="w-full bg-surface border border-outline-variant rounded-lg p-4 font-body-md text-on-surface focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors" type="number" value="70000"/>
+</div>
+</div>
+<div class="space-y-stack-xs relative group/input">
+<label class="font-label-caps text-on-surface-variant uppercase tracking-wider block">Required Delivery</label>
+<div class="relative">
+<input class="w-full bg-surface border border-outline-variant rounded-lg p-4 font-body-md text-on-surface appearance-none focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors" type="date" value="2026-09-15"/>
+</div>
+</div>
+</div>
+</div>
+<div class="h-px w-full bg-outline-variant/30"></div>
+<!-- Strategy Section -->
+<div class="space-y-stack-md">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[24px]">strategy</span>
+<h2 class="font-headline-md text-on-surface">Strategy Parameters</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-stack-md">
+<div class="space-y-stack-xs relative group/input">
+<label class="font-label-caps text-on-surface-variant uppercase tracking-wider block">Contract Horizon</label>
+<div class="relative">
+<select class="w-full bg-surface border border-outline-variant rounded-lg p-4 font-body-md text-on-surface appearance-none focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors cursor-pointer">
+<option selected="" value="compare-all">Compare All (Spot vs COA vs T/C)</option>
+<option value="spot">Spot Market Only</option>
+<option value="coa">Contract of Affreightment</option>
+</select>
+<span class="material-symbols-outlined absolute right-4 top-1/2 -translate-y-1/2 text-on-surface-variant pointer-events-none">expand_more</span>
+</div>
+</div>
+<div class="space-y-stack-xs relative group/input">
+<label class="font-label-caps text-on-surface-variant uppercase tracking-wider block">Vessel Preference</label>
+<div class="relative">
+<select class="w-full bg-surface border border-outline-variant rounded-lg p-4 font-body-md text-on-surface appearance-none focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors cursor-pointer">
+<option selected="" value="any">Any (Optimized by AI)</option>
+<option value="panamax">Panamax</option>
+<option value="capesize">Capesize</option>
+</select>
+<span class="material-symbols-outlined absolute right-4 top-1/2 -translate-y-1/2 text-on-surface-variant pointer-events-none">expand_more</span>
+</div>
+</div>
+</div>
+</div>
+<div class="pt-stack-md flex justify-end">
+<button class="relative overflow-hidden group bg-primary text-on-primary font-label-caps py-4 px-8 rounded-lg tracking-widest flex items-center gap-3 transition-all hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background" id="generateBtn" type="button">
+<span class="relative z-10 flex items-center gap-2">
+<span class="material-symbols-outlined text-[20px]">auto_awesome</span>
+                             GENERATE AI RECOMMENDATION
+                        </span>
+<div class="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out"></div>
+<!-- Pulse effect -->
+<span class="absolute right-4 top-1/2 -translate-y-1/2 flex h-3 w-3">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary-fixed opacity-75"></span>
+<span class="relative inline-flex rounded-full h-3 w-3 bg-secondary-fixed"></span>
+</span>
+</button>
+</div>
+</form>
+</div>
+</div>
+<!-- AI Processing Sidebar (Hidden by default) -->
+<div class="col-span-12 lg:col-span-4 opacity-0 pointer-events-none translate-x-8 transition-all duration-500 ease-in-out relative z-10" id="aiSidebar">
+<div class="bg-surface-container rounded-xl p-stack-lg sticky top-stack-xl border border-outline-variant/50">
+<div class="flex items-center gap-3 mb-stack-lg">
+<div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center animate-spin">
+<span class="material-symbols-outlined text-on-primary text-[16px]">sync</span>
+</div>
+<div>
+<h3 class="font-headline-md text-on-surface">Intelligence Engine</h3>
+<p class="font-body-sm text-on-surface-variant">Processing Scenario Parameters</p>
+</div>
+</div>
+<div class="space-y-stack-md" id="processSteps">
+<!-- Steps injected via JS -->
+</div>
+<div class="mt-stack-lg pt-stack-md border-t border-outline-variant/30 text-center opacity-0 transition-opacity duration-300" id="completionMessage">
+<p class="font-body-sm text-secondary mb-3">Analysis Complete</p>
+<button class="bg-secondary-fixed text-on-secondary-fixed font-label-caps py-2 px-6 rounded-lg w-full hover:bg-secondary-fixed-dim transition-colors">VIEW RESULTS</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+    const generateBtn = document.getElementById('generateBtn');
+    const aiSidebar = document.getElementById('aiSidebar');
+    const formContainer = document.querySelector('.lg\\:col-span-8');
+    const processStepsContainer = document.getElementById('processSteps');
+    const completionMessage = document.getElementById('completionMessage');
+
+    const steps = [
+        "Analyzing freight market...",
+        "Checking vessel compatibility...",
+        "Analyzing port conditions...",
+        "Estimating waiting time...",
+        "Comparing contract strategies...",
+        "Generating recommendation..."
+    ];
+
+    generateBtn.addEventListener('click', () => {
+        // UI Transition
+        aiSidebar.classList.remove('opacity-0', 'pointer-events-none', 'translate-x-8');
+        generateBtn.classList.add('opacity-50', 'pointer-events-none');
+        generateBtn.innerHTML = `<span class="material-symbols-outlined animate-spin">sync</span> PROCESSING...`;
+
+        processStepsContainer.innerHTML = '';
+        completionMessage.classList.remove('opacity-100');
+        completionMessage.classList.add('opacity-0');
+
+        let currentStep = 0;
+
+        const processInterval = setInterval(() => {
+            if (currentStep < steps.length) {
+                // Add new step
+                const stepEl = document.createElement('div');
+                stepEl.className = 'flex items-start gap-3 opacity-0 translate-y-2 transition-all duration-300 ease-out';
+                stepEl.innerHTML = `
+                    <div class="mt-1 w-5 h-5 rounded-full border-2 border-primary flex items-center justify-center relative">
+                        <div class="w-2 h-2 rounded-full bg-primary animate-pulse absolute"></div>
+                    </div>
+                    <p class="font-body-md text-on-surface flex-1">${steps[currentStep]}</p>
+                `;
+                processStepsContainer.appendChild(stepEl);
+                
+                // Trigger animation
+                requestAnimationFrame(() => {
+                    stepEl.classList.remove('opacity-0', 'translate-y-2');
+                });
+
+                // Update previous step to complete state
+                if (currentStep > 0) {
+                    const prevStep = processStepsContainer.children[currentStep - 1];
+                    const iconContainer = prevStep.querySelector('.w-5');
+                    iconContainer.classList.replace('border-primary', 'border-emerald-500');
+                    iconContainer.innerHTML = `<span class="material-symbols-outlined text-[14px] text-emerald-500" style="font-variation-settings: 'FILL' 1">check_circle</span>`;
+                    prevStep.querySelector('p').classList.replace('text-on-surface', 'text-on-surface-variant');
+                }
+
+                currentStep++;
+            } else {
+                clearInterval(processInterval);
+                
+                // Complete final step
+                const finalStep = processStepsContainer.children[currentStep - 1];
+                const iconContainer = finalStep.querySelector('.w-5');
+                iconContainer.classList.replace('border-primary', 'border-emerald-500');
+                iconContainer.innerHTML = `<span class="material-symbols-outlined text-[14px] text-emerald-500" style="font-variation-settings: 'FILL' 1">check_circle</span>`;
+                
+                // Show completion
+                setTimeout(() => {
+                    document.querySelector('.animate-spin').classList.remove('animate-spin');
+                    document.querySelector('.animate-spin')?.classList.replace('bg-primary', 'bg-emerald-500');
+                    completionMessage.classList.replace('opacity-0', 'opacity-100');
+                    
+                    // Reset button
+                    generateBtn.classList.remove('opacity-50', 'pointer-events-none');
+                    generateBtn.innerHTML = `
+                        <span class="relative z-10 flex items-center gap-2">
+                             <span class="material-symbols-outlined text-[20px]">refresh</span>
+                             RUN NEW SCENARIO
+                        </span>
+                    `;
+                }, 500);
+            }
+        }, 800);
+    });
+</script></main></div></body></html>
